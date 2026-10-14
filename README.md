@@ -1,4 +1,4 @@
-# Strangercraft
+# Strangercraft 怪奇麥塊物語
 
 走進 Hawkins，和朋友一起找回失蹤的 Will，穿越顛倒世界，迎接現實學校裡的決戰。
 
