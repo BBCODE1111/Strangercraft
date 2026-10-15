@@ -6,21 +6,27 @@
 
 這是一個單純的《怪奇物語》粉絲作品，簡化並改編了許多劇情流程，沒有追求高度還原。製作它的初衷，只是希望帶來沉浸的體驗，讓你感受走進顛倒世界的氣氛。目前還是測試版 會繼續優化以及更新新的內容。Enjoy
 
-目前下載版本：**V6.4.7｜黎明的代價**。
+目前下載版本：**V6.4.9｜黎明的代價**。
 
 ## 下載
 
-| 你要做什麼 | 下載哪一包 |
-| --- | --- |
-| 第一次玩，或準備當房主 | [完整遊戲包：Strangercraft-v6.4.7.zip](https://github.com/BBCODE1111/Strangercraft/releases/download/v6.4.7/Strangercraft-v6.4.7.zip) |
-| 只加入朋友的房間 | [朋友端：Strangercraft-v6.4.7-players.zip](https://github.com/BBCODE1111/Strangercraft/releases/download/v6.4.7/Strangercraft-v6.4.7-players.zip) |
-| 已有 Fabric 與 Fabric API，只補遊戲模組 | [Hawkins V6.4.7 模組](https://github.com/BBCODE1111/Strangercraft/releases/download/v6.4.7/hawkins-escape-6.4.7.jar) |
+下載 [v6.4.9.zip](https://github.com/BBCODE1111/Strangercraft/releases/download/v6.4.9/v6.4.9.zip)。同一包供房主、朋友與伺服器使用；只加入朋友時取用 `玩家端/mods` 即可。
 
-[查看所有下載檔案](https://github.com/BBCODE1111/Strangercraft/releases/tag/v6.4.7)
+[查看所有下載檔案](https://github.com/BBCODE1111/Strangercraft/releases/tag/v6.4.9)
 
-完整遊戲包包含兩個必要模組、乾淨世界、獨立伺服器、Fabric 安裝器與遊玩說明。朋友端包含兩個必要模組、Fabric 安裝器與說明；加入朋友時不需要自己裝世界。
+完整遊戲包包含兩個必要模組、乾淨世界、獨立伺服器、Fabric 安裝器與遊玩說明。加入朋友時不需要自己裝世界。
 
-請下載上表的遊戲包。GitHub 自動提供的 **Source code** 壓縮檔只有這個專案的介紹與說明，無法直接遊玩。
+請下載上面的遊戲包。GitHub 自動提供的 **Source code** 壓縮檔只有這個專案的介紹與說明，無法直接遊玩。
+
+## V6.4.9 更新
+
+- 繃帶逐步回滿生命，受擊時暫停約兩秒；倒地不會自動復活。
+- 滿血無防具、未治療時，第三次有效攻擊倒地；最後一下也有打擊聲。
+- 追逐開始有吼叫，腳步依實際移動播放。
+- 開場與顛倒世界的地下室家具、地圖和樓梯配置對應。
+- 包含 V6.4.8 戶外配樂排程修正，沿用原有選曲。
+
+已有 V6.4.7／V6.4.8 進度：先另存獨立遊戲目錄和世界，按完整包內 `更新既有進度.txt` 更新副本，不要用乾淨世界覆蓋進度。所有朋友與伺服器都需相同模組版本。
 
 ## 你會玩到什麼
 
@@ -41,7 +47,7 @@
 | Minecraft | **Java Edition 1.21.1** |
 | Fabric Loader | **0.16.14** |
 | Fabric API | **0.116.17+1.21.1** |
-| Hawkins 模組 | **6.4.7** |
+| Hawkins 模組 | **6.4.9** |
 | Java | **21** |
 | 人數 | **1–6 人** |
 
@@ -49,7 +55,7 @@
 
 ```text
 fabric-api-0.116.17+1.21.1.jar
-hawkins-escape-6.4.7.jar
+hawkins-escape-6.4.9.jar
 ```
 
 Minecraft Bedrock／手機／主機版不能加入這個 Java Fabric 遊戲。
