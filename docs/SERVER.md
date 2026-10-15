@@ -4,7 +4,7 @@
 
 ## 準備
 
-下載 [完整遊戲包](https://github.com/BBCODE1111/Strangercraft/releases/download/v6.4.7/Strangercraft-v6.4.7.zip)，解壓縮後使用 `獨立伺服器` 資料夾。裡面已提供：
+下載 [完整遊戲包](https://github.com/BBCODE1111/Strangercraft/releases/download/v6.4.9/v6.4.9.zip)，解壓縮後使用 `獨立伺服器` 資料夾。裡面已提供：
 
 - Minecraft 1.21.1／Fabric Loader 0.16.14 的啟動檔。
 - 相同的兩個必要模組。
