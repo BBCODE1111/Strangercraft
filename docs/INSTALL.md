@@ -2,10 +2,10 @@
 
 ## 1. 下載遊戲包
 
-- 第一次玩或當房主：[完整遊戲包](https://github.com/BBCODE1111/Strangercraft/releases/download/v6.4.9/v6.4.9.zip)。
+- 第一次玩或當房主：[完整遊戲包](https://github.com/BBCODE1111/Strangercraft/releases/download/v6.4.11/v6.4.11.zip)。
 - 只加入朋友：使用同一個完整包裡的 `玩家端/mods`，不需複製房主世界。
 
-解壓縮後再使用。所有人固定使用 Minecraft Java **1.21.1**、Fabric Loader **0.16.14** 和 Hawkins **6.4.9**。
+解壓縮後再使用。所有人固定使用 Minecraft Java **1.21.1**、Fabric Loader **0.16.14** 和 Hawkins **6.4.11**。
 
 ## 2. 準備 Minecraft 與 Java
 
@@ -45,17 +45,17 @@ java -jar fabric-installer-1.1.2.jar
 
 在 Minecraft 啟動器「安裝檔」新增遊玩選項：
 
-- 名稱建議：`Strangercraft V6.4.9`
+- 名稱建議：`Strangercraft V6.4.11`
 - 版本：`fabric-loader-0.16.14-1.21.1`
-- 遊戲目錄：指定一個新的空資料夾，例如文件裡的 `Strangercraft_V6.4.9`。
+- 遊戲目錄：指定一個新的空資料夾，例如文件裡的 `Strangercraft_V6.4.11`。
 
 將遊戲包 `玩家端/mods` 複製到這個新目錄。完成後應該是：
 
 ```text
-Strangercraft_V6.4.9/
+Strangercraft_V6.4.11/
 └── mods/
     ├── fabric-api-0.116.17+1.21.1.jar
-    └── hawkins-escape-6.4.9.jar
+    └── hawkins-escape-6.4.11.jar
 ```
 
 不要將其他 Hawkins 版本放進同一個 `mods`。Fabric 安裝器、Java 安裝檔與伺服器啟動檔也不放在 `mods`。
@@ -64,22 +64,22 @@ Strangercraft_V6.4.9/
 
 只有房主需要這一步；朋友直接加入即可。
 
-關閉 Minecraft，把完整遊戲包中 `房主世界/saves/Hawkins_Escape_v6_4_9` 複製到新遊戲目錄的 `saves`：
+關閉 Minecraft，把完整遊戲包中 `房主世界/saves/Hawkins_Escape_v6_4_11` 複製到新遊戲目錄的 `saves`：
 
 ```text
-Strangercraft_V6.4.9/
+Strangercraft_V6.4.11/
 ├── mods/
 └── saves/
-    └── Hawkins_Escape_v6_4_9/
+    └── Hawkins_Escape_v6_4_11/
         ├── level.dat
         ├── hawkins_escape.json
         ├── region/
         └── datapacks/
 ```
 
-若目標已有同名世界，先把新副本改名，例如 `Hawkins_Escape_v6_4_9_多人新局_01`，再複製。不要覆蓋原世界。
+若目標已有同名世界，先把新副本改名，例如 `Hawkins_Escape_v6_4_11_多人新局_01`，再複製。不要覆蓋原世界。
 
-啟動剛建立的 Fabric 選項，單人遊戲選 **HAWKINS｜黎明的代價 · V6.4.9（1–6人）**。若清單有兩個同名世界，以清單顯示的存檔資料夾名稱辨認新副本。
+啟動剛建立的 Fabric 選項，單人遊戲選 **HAWKINS｜Secret Castle · V6.4.11（無光影）**。若清單有兩個同名世界，以清單顯示的存檔資料夾名稱辨認新副本。
 
 ## 6. 朋友加入
 
@@ -111,7 +111,7 @@ Strangercraft_V6.4.9/
 
 ## 更新既有進度
 
-V6.4.7／V6.4.8 玩家請按完整包內 `更新既有進度.txt`，另存遊戲目錄與世界副本，再替換副本模組及指定資料包 JSON。舊世界與啟動選項保留。
+請按完整包內 `更新既有進度.txt`，另存遊戲目錄與世界副本，再替換副本模組。V6.4.7／V6.4.8 還需更新指定資料包 JSON；V6.4.9／V6.4.10 不需要。停用舊 Hawkins 資源包，讓新版地圖生效。舊世界與啟動選項保留，首次載入自動升級場景，不需 restart。
 
 ## 玩家 Skin 與音樂
 
